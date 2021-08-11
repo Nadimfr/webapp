@@ -48,8 +48,7 @@ export default function Home({ data }) {
       </div>
 
       <ul className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-h-screen pt-14 '>
-        {results.map(result => {
-          const {id, name, image, gender } = result;
+        {results.map( ({id, name, image, gender }) => {
           return ( 
           <li key={id} className='h-40 w-60 mb-28 cursor-pointer hover:underline'>
             <img className='rounded-2xl border-gray-900 border-4' src={image} alt={`${name} Thumb`} />
