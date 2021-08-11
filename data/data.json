@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "Product": "Nike Airmax 1",
+    "Price": "145 $",
+    "Sex": "Man",
+    "Image": "https://picsum.photos/seed/picsum/200/300"
+  },
+  {
+    "ID": 2,
+    "Product": "Nike Backpack",
+    "Price": "90 $",
+    "Sex": "Unisex",
+    "Image": "https://picsum.photos/seed/picsum/200/300"
+  },
+  {
+    "ID": 3,
+    "Product": "Nike Cortez",
+    "Price": "129 $",
+    "Sex": "Unisex",
+    "Image": "https://picsum.photos/seed/picsum/200/300"
+  },
+  {
+    "ID": 4,
+    "Product": "Nike Retro T-shirt",
+    "Price": "89.99 $",
+    "Sex": "Ladies",
+    "Image": "https://picsum.photos/seed/picsum/200/300"
+  }
+]
