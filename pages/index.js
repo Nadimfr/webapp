@@ -52,9 +52,9 @@ export default function Home({ data }) {
           return ( 
           <li key={id} className='h-40 w-60 mb-28 cursor-pointer hover:underline'>
             <img className='rounded-2xl border-gray-900 border-4' src={image} alt={`${name} Thumb`} />
-          <div className='grid grid-cols-2'>
-          <h3 className='text-left text-lg mt-2 text-transparent bg-clip-text font-bold bg-gradient-to-br from-red-800 via-purple-300 to-purple-500'>{name}</h3>
-          <h3 className='text-right text-lg font-light mt-2 text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-purple-300 to-red-800'>{gender}</h3>
+          <div className='grid grid-cols-1'>
+          <h3 className='text-left text-lg mt-1 text-transparent bg-clip-text font-bold bg-gradient-to-br from-red-800 via-purple-300 to-purple-500'>{name}</h3>
+          <h3 className='text-left text-lg font-light text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-purple-300 to-red-800'>{gender}</h3>
           </div>
         </li>
           )
